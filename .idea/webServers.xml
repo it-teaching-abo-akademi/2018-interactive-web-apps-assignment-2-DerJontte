@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6b68e236-a347-4d98-a96d-70d59723df0c" name="abo.fi" url="http://users.abo.fi">
+        <fileTransfer host="tuxedo.abo.fi" port="22" rootFolder="/home/aton4/johnordq/www" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

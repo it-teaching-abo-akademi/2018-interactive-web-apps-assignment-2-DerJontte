@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <script src="exercise1.js" type="application/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.0/dist/barcodes/JsBarcode.code128.min.js" type="application/javascript"></script>
 </head>
 <body>
 
-<input class="virtual_barcode" id="virtual_barcode"><br>
+<div class="barcode_input">
+    Virtual barcode: <input type="text" class="text_input" id="virtual_barcode" size="55">
+</div>
 <button id="btn_decode">Decode</button>
 
 <div class="information">
@@ -24,7 +27,9 @@
     <p>
         Due date: <span id="due_date"></span>
     </p>
-    <span id="barcode"></span>
+    <svg id="barcode">
+
+    </svg>
 </div>
 
 </body>
