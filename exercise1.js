@@ -1,10 +1,3 @@
-// Versionumero 1 5                                 0
-// Saajan tilinumeron (IBAN) numeerinen osa 16      1 - 16
-// Eurot 6                                          17 - 22
-// Sentit 2                                         23 - 24
-// RF-viitteen numeerinen osa 23                    25 - 47
-// Eräpäivä 6 VVKKPP                                48 - 53
-
 function errorMessage(message) {
     alert("Error: " + message);
 }
@@ -76,19 +69,28 @@ function parseVirtual() {
     JsBarcode(element, vCode, {format: "CODE128C"});
 }
 
-function setGreyOnFocus(element) {
-    element.onfocus = function() {
-            element.style = "background: lightgrey";
-        }
-    element.onblur = function() {
-            element.style = "background: white";
-        }
+function toggleText(element, textA, textB){
+    if($(element).text() == textA) {
+        element.text(textB);
+    } else {
+        element.text(textA);
+    }
 }
 
 window.onload = function(n) {
-    textInputs = document.getElementsByClassName("text_input");
-    for (i = 0; i < textInputs.length; i++) {
-        setGreyOnFocus(textInputs[i]);
-    }
+    $("input:text").bind("focus blur", function() {
+        $(this).toggleClass("bg_grey");
+    });
+
     document.getElementById("btn_decode").onclick = parseVirtual;
+
+    $("#btn_hide").click(function(){
+        $("#information").slideToggle("fast", toggleText($(this), "Hide", "Show"));
+    });
+
+    $("#virtual_barcode").keypress(function (key) {
+        if (key.which == 13) {
+            $("#btn_decode").click();
+        }
+    });
 }

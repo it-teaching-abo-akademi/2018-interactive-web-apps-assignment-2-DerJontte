@@ -3,34 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="exercise1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="exercise1.js" type="application/javascript"></script>
     <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.0/dist/barcodes/JsBarcode.code128.min.js" type="application/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
 
-<div class="barcode_input">
-    Virtual barcode: <input type="text" class="text_input" id="virtual_barcode" size="55">
-</div>
-<button id="btn_decode">Decode</button>
 
-<div class="information">
-    <button id="btn_hide">Hide</button><br>
-    <p>
-        Payee's IBAN: <span id="iban"></span>
-    </p>
-    <p>
-        Amount to be paid: <span id="amount"></span>
-    </p>
-    <p>
-        Payment reference: <span id="reference"></span>
-    </p>
-    <p>
-        Due date: <span id="due_date"></span>
-    </p>
-    <svg id="barcode">
+<section class="universe">
+    <div id="barcode_input" class="col-10">
+        <label for="virtual_barcode" class="col-2">Virtual barcode:</label><input type="text" class="text_input col-8" id="virtual_barcode">
+    </div>
 
-    </svg>
-</div>
+    <div id="buttons" class="col-10">
+        <div class="col-2"></div>
+        <button id="btn_decode">Decode</button>
+        <button id="btn_hide">Hide</button>
+    </div>
+
+    <div class="col-10" id="information">
+        <p id="row1">
+        <div class="col-6 wrappable">
+            Payee's IBAN: <span id="iban"></span>
+        </div>
+        <div class="col-4 wrappable">
+            Amount to be paid: <span id="amount"></span>
+        </div>
+        </p>
+        <p id="row2">
+        <div class="col-6 wrappable">
+            Payment reference: <span id="reference"></span>
+        </div>
+        <div class="col-4 wrappable">
+            Due date: <span id="due_date"></span>
+        </div>
+        </p>
+
+        <div class="col-10" id="barcode_area">
+            <div class="col-1"></div>
+            <svg class="col-8" id="barcode"></svg>
+            <div class="col-1"></div>
+        </div>
+    </div>
+</section>
 
 </body>
 </html>
