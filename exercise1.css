@@ -6,6 +6,10 @@ div {
     margin-top: 10px;
 }
 
+span {
+    white-space: nowrap;
+}
+
 .universe {
     position: absolute;
     width: 80%;
