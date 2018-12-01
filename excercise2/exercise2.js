@@ -7,11 +7,11 @@ function makeMap(){
 
 function drawMap(position) {
     var currPos = { lat: position.coords.latitude,
-                    lng: position.coords.longitude};
+        lng: position.coords.longitude};
     map = new google.maps.Map(document.getElementById("googleMap"), {
-            center: currPos,
-            zoom:15
-        });
+        center: currPos,
+        zoom:15
+    });
 
     var marker = new google.maps.Marker({
         position: currPos,
