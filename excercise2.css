@@ -54,6 +54,7 @@ td {
 #zip {
     border: 1px solid darkgrey;
     padding: 1.2px;
+    width: 100%;
 }
 
 #box_map {
