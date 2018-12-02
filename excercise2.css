@@ -34,7 +34,7 @@ td {
     padding: 0;
 }
 
-.tr-1 {width: 150px}
+.tr-1 {width: 350px}
 .tr-2 {width: 150px}
 
 .resultTable {
@@ -54,6 +54,7 @@ td {
 #zip {
     border: 1px solid darkgrey;
     padding: 1.2px;
+    width: 100%;
 }
 
 #box_map {
@@ -69,6 +70,23 @@ depending on the number of place coordinates returned when queries are made. */
 }
 
 #box_history {
-    padding-left: 10px;
+    padding-left: 100px;
     height: 11.5em;
+}
+
+/* Order elements in a vertical manner when the viewport is very narrow. */
+@media screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    .tr-1 {
+        width: 100px;
+    }
+
+    #box_history {
+        padding-left: 10px;
+    }
 }
