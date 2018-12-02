@@ -56,7 +56,7 @@ zipopotamus for the given data. The data the server returns is then used to:
 */
 function fetchData(countryCode, zipCode){
     // Fetch data from server and execute a lambda callback-function:
-    $.getJSON("http://api.zippopotam.us/" + countryCode + "/" + zipCode, function(data) {
+    $.getJSON("https://api.zippopotam.us/" + countryCode + "/" + zipCode, function(data) {
         // Delete old markers
         clearMarkers();
 
