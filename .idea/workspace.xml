@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b204914a-dbf7-40b2-bc89-70e237300d54" name="Default Changelist" comment="" />
+    <list default="true" id="b204914a-dbf7-40b2-bc89-70e237300d54" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -134,7 +136,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -166,11 +168,6 @@
               <item name="ClientSideAssignment2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
-            <path>
-              <item name="ClientSideAssignment2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="excercise1" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -188,6 +185,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\John\WebstormProjects\ClientSideAssignment2" />
       <recent name="C:\Users\John\WebstormProjects\ClientSideAssignment2\excercise3" />
       <recent name="C:\Users\John\WebstormProjects\ClientSideAssignment2\excercise2" />
       <recent name="C:\Users\John\WebstormProjects\ClientSideAssignment2\excercise1" />
@@ -210,10 +208,10 @@
     </option>
   </component>
   <component name="RunManager" selected="JavaScript Debug.exercise2.html">
-    <configuration name="exercise1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ClientSideAssignment2/excercise1/exercise1.html">
+    <configuration name="exercise1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ClientSideAssignment2/exercise1.html">
       <method v="2" />
     </configuration>
-    <configuration name="exercise2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ClientSideAssignment2/excercise2/exercise2.html">
+    <configuration name="exercise2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ClientSideAssignment2/exercise2.html">
       <method v="2" />
     </configuration>
     <configuration name="exercise3.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ClientSideAssignment2/excercise3/exercise3.html" useFirstLineBreakpoints="true">
@@ -246,12 +244,12 @@
       <workItem from="1543162088698" duration="46000" />
       <workItem from="1543162336923" duration="14000" />
       <workItem from="1543491791043" duration="37309000" />
-      <workItem from="1543603183432" duration="63038000" />
+      <workItem from="1543603183432" duration="64329000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118053000" />
+    <option name="totallyTimeSpent" value="119344000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -292,7 +290,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/excercise2/exercise2.html">
+    <entry file="file://$PROJECT_DIR$/exercise2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
@@ -323,42 +321,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/excercise1/exercise1.js">
+    <entry file="file://$PROJECT_DIR$/exercise1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1632">
           <caret line="96" selection-start-line="96" selection-end-line="96" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/excercise1/exercise1.css">
+    <entry file="file://$PROJECT_DIR$/exercise1.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="75" selection-start-line="75" selection-end-line="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/excercise1/exercise1.html">
+    <entry file="file://$PROJECT_DIR$/exercise1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="108" selection-start-line="13" selection-start-column="108" selection-end-line="13" selection-end-column="108" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/excercise2/exercise2.html">
+    <entry file="file://$PROJECT_DIR$/exercise2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="534">
           <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/excercise2/excercise2.css">
+    <entry file="file://$PROJECT_DIR$/excercise2.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="517">
           <caret line="73" column="1" lean-forward="true" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/excercise2/exercise2.js">
+    <entry file="file://$PROJECT_DIR$/exercise2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="534">
           <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />

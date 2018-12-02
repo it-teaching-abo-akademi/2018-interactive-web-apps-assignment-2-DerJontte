@@ -111,7 +111,9 @@ window.onload = function() {
     populateCountries();
     // Load the saved search history from an earlier session
     historyData = localStorage.getItem("history").split(',');
-    $("#history").html(historyData);
+    if (historyData != null) {
+        $("#history").html(historyData);
+    }
     $("#btn_search").click(searchClicked);
     // When the zip-input is active and the user presses enter, fire off the search-button
     $("#zip").keypress(function (key) {
