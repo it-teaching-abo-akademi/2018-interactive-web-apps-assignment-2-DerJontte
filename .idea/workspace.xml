@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b204914a-dbf7-40b2-bc89-70e237300d54" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise2/excercise2.css" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/excercise2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/excercise2/exercise2.html" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/exercise2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/excercise2/exercise2.js" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2/exercise2.js" afterDir="false" />
     </list>
@@ -29,50 +30,77 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="1" />
-          <entry key="html" value="7" />
-          <entry key="js" value="8" />
+          <entry key="css" value="7" />
+          <entry key="html" value="18" />
+          <entry key="js" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="1" />
-          <entry key="HTML" value="7" />
-          <entry key="JavaScript" value="8" />
+          <entry key="CSS" value="7" />
+          <entry key="HTML" value="18" />
+          <entry key="JavaScript" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="778" />
-          <entry key="html" value="1647" />
-          <entry key="js" value="6018" />
+          <entry key="css" value="1365" />
+          <entry key="html" value="2819" />
+          <entry key="js" value="11707" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="778" />
-          <entry key="HTML" value="1647" />
-          <entry key="JavaScript" value="6018" />
+          <entry key="CSS" value="1365" />
+          <entry key="HTML" value="2819" />
+          <entry key="JavaScript" value="11707" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/excercise2/exercise2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="181">
+              <caret line="24" column="42" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/excercise1/exercise1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/excercise2/excercise2.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/excercise2/exercise2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="444">
+              <caret line="79" column="50" selection-start-line="79" selection-start-column="50" selection-end-line="79" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/excercise3/exercise3.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -82,30 +110,50 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&quot;</find>
-      <find>input</find>
-      <find>barcode</find>
-      <find>virtual ba</find>
-      <find>,</find>
-      <find>btn§§</find>
-      <find>amount</find>
-      <find>univ</find>
-      <find>'</find>
-      <find>barcod</find>
-      <find>padd</find>
+      <find>cou</find>
+      <find>$</find>
+      <find>.value</find>
+      <find>grey</find>
+      <find>historyData</find>
+      <find>q</find>
+      <find>tab</find>
+      <find>table</find>
+      <find>box</find>
+      <find>box_h</find>
+      <find>box_</find>
+      <find>dropdow</find>
+      <find>dropDow</find>
+      <find>countr</find>
+      <find>dropDown</find>
+      <find>coun</find>
+      <find>resu</find>
+      <find>result</find>
+      <find>bor</find>
+      <find>red</find>
+      <find>borde</find>
+      <find>histo</find>
+      <find>virtual</find>
+      <find>zip</find>
+      <find>map</find>
+      <find>zoom</find>
+      <find>histor</find>
+      <find>box_hi</find>
+      <find>history</find>
+      <find>replace</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
       <replace>.</replace>
       <replace>&quot;</replace>
+      <replace>$(&quot;#countries&quot;)</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -121,8 +169,10 @@
         <option value="$PROJECT_DIR$/exercise1.css" />
         <option value="$PROJECT_DIR$/exercise2.html" />
         <option value="$PROJECT_DIR$/excercise2.js" />
-        <option value="$PROJECT_DIR$/excercise2/exercise2.js" />
+        <option value="$PROJECT_DIR$/excercise2/q.html" />
         <option value="$PROJECT_DIR$/excercise2/exercise2.html" />
+        <option value="$PROJECT_DIR$/excercise2/excercise2.css" />
+        <option value="$PROJECT_DIR$/excercise2/exercise2.js" />
       </list>
     </option>
   </component>
@@ -132,7 +182,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -156,7 +206,17 @@
             <path>
               <item name="ClientSideAssignment2" type="b2602c69:ProjectViewProjectNode" />
               <item name="ClientSideAssignment2" type="462c0819:PsiDirectoryNode" />
+              <item name="excercise1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClientSideAssignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClientSideAssignment2" type="462c0819:PsiDirectoryNode" />
               <item name="excercise2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClientSideAssignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClientSideAssignment2" type="462c0819:PsiDirectoryNode" />
+              <item name="excercise3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -168,7 +228,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ClientSideAssignment1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WeatherView" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -215,8 +275,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.exercise2.html" />
-        <item itemvalue="JavaScript Debug.exercise3.html" />
         <item itemvalue="JavaScript Debug.exercise1.html" />
+        <item itemvalue="JavaScript Debug.exercise3.html" />
       </list>
     </recent_temporary>
   </component>
@@ -234,12 +294,12 @@
       <workItem from="1543162088698" duration="46000" />
       <workItem from="1543162336923" duration="14000" />
       <workItem from="1543491791043" duration="37309000" />
-      <workItem from="1543603183432" duration="17060000" />
+      <workItem from="1543603183432" duration="56211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72075000" />
+    <option name="totallyTimeSpent" value="111226000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -281,27 +341,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/excercise1/exercise1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="86" column="36" lean-forward="true" selection-start-line="86" selection-start-column="36" selection-end-line="86" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excercise1/exercise1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="45" column="41" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excercise1/exercise1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/excercise2/exercise2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -312,31 +351,64 @@
     <entry file="file://$PROJECT_DIR$/excercise2/excercise2.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/excercise3/exercise3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excercise2/exercise2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/excercise3/exercise3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="36" lean-forward="true" selection-end-line="18" />
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise2/q.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise1/exercise1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise1/exercise1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-214" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise2/excercise2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/excercise2/exercise2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="181">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise3/exercise3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise1/exercise1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise2/exercise2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="79" column="50" selection-start-line="79" selection-start-column="50" selection-end-line="79" selection-end-column="50" />
         </state>
       </provider>
     </entry>

@@ -1,5 +1,62 @@
+* {
+    box-sizing: border-box;
+}
 
-#googleMap {
-    width: 400px;
+td {
+    vertical-align: top;
+}
+
+.universe {
+    position: absolute;
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+.col-1 {width: 10%}
+.col-2 {width: 20%}
+.col-3 {width: 30%}
+.col-4 {width: 40%}
+.col-5 {width: 50%}
+.col-6 {width: 60%}
+.col-7 {width: 70%}
+.col-8 {width: 80%}
+.col-9 {width: 90%}
+.col-10 {width: 100%}
+
+[class*="col-"] {
+    float: left;
+    padding: 0;
+}
+
+.tr-1 {width: 150px}
+.tr-2 {width: 150px}
+
+.resultTable {
+    width: 100%;
+}
+
+.resultCol1 {
+    width: 30%;
+}
+
+#countries {
+    width: 100%;
+}
+
+#box_map {
+    border: 1px solid black;
+    width: 100%;
     height: 400px;
+}
+
+#box_results {
+    height: 2.8em;
+}
+
+#box_history {
+    padding-left: 10px;
+    height: 11.5em;
 }

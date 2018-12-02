@@ -3,15 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="excercise2.css">
-    <script src="exercise2.js"></script>
+    <script src="exercise2.js" type="application/javascript"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWZKKrAYR54gyj3EWJrVCWtTDBAJdl734&callback=makeMap"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
+
 <body>
 
-<div id="googleMap"></div>
-<button onclick="setMarker()">Mark center</button>
-<p id="o"></p>
+<section class="universe">
+    <div id="row1" class="col-10">
+        <table id="box_inputs" class="col-10">
+            <tr>
+                <td class="tr-1">
+                    Select your country:
+                </td>
+                <td class="tr-2">
+                    <select id="countries"></select>
+                </td>
+                <td rowspan="3" id="box_history">
+                    History
+                    <div id="history"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Zip code:
+                </td>
+                <td>
+                    <input id="zip" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                </td>
+                <td>
+                    <button id="btn_search" class="col-5">Search</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="box_results" class="col-10">
+        <table class="resultTable">
+            <tr>
+                <td class="resultCol1">Place name</td>
+                <td class="resultCol2">Longitude</td>
+                <td class="resultCol3">Latitude</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="box_map" class="col-10">
+    </div>
+
+</section>
+
 </body>
 </html>
 
