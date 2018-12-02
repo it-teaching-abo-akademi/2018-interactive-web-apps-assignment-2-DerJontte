@@ -16,7 +16,7 @@
 <section class="universe">
     <div id="row1" class="col-10">
         <!-- The following table holds all other elements than the map itself. -->
-        <table id="box_inputs" class="col-10">
+        <table id="box_inputs" class="col-6" border="1">
             <tr>
                 <td class="tr-1">
                     Select your country:
@@ -25,12 +25,6 @@
                     <select id="countries">
                         <!-- The dropdown box with available countries is generated here with Javascript -->
                     </select>
-                </td>
-                <td rowspan="3" id="box_history">
-                    History
-                    <div id="history">
-                        <!-- The history with the 10 last searches is rendered here  -->
-                    </div>
                 </td>
             </tr>
             <tr>
@@ -47,6 +41,16 @@
                 </td>
                 <td>
                     <button id="btn_search" class="col-5">Search</button>
+                </td>
+            </tr>
+        </table>
+        <table class="col-4">
+            <tr>
+                <td rowspan="3" id="box_history">
+                    History
+                    <div id="history">
+                        <!-- The history with the 10 last searches is rendered here  -->
+                    </div>
                 </td>
             </tr>
         </table>
