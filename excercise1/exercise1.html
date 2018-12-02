@@ -11,8 +11,10 @@
 </head>
 <body>
 
-
+<!-- All content is wrapped inside a section-tag that defines the maximum width of the UI when the viewport gets really big -->
 <section class="universe">
+
+    <!-- Barcode input and UI-buttons -->
     <div id="barcode_input" class="col-10">
         <label for="virtual_barcode" class="col-2">Virtual barcode:</label><input type="text" class="text_input col-8" id="virtual_barcode">
     </div>
@@ -23,6 +25,9 @@
         <button id="btn_hide">Hide</button>
     </div>
 
+    <!-- The output from the parsed barcode is put inside the span-tags with the corresponding names (except the
+    generated barcode, which is put inside the svg-tag). The entire div-id #information can be hidden and restored
+    with the Hide-button. -->
     <div class="col-10" id="information">
         <p id="row1">
         <div class="col-6 wrappable">

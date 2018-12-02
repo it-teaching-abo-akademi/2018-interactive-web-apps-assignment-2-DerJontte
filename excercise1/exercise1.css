@@ -1,3 +1,4 @@
+/* Set all elements to be resized by their actual outer bounds */
 * {
     box-sizing: border-box;
 }
@@ -7,9 +8,12 @@ div {
 }
 
 span {
+    /* Force the contents of span-tags *(i.e. the parsed data) to always be displayed on the same row. This makes the
+     references and IBANs better looking, easier to read and easier to copy-and-paste. */
     white-space: nowrap;
 }
 
+/* The contents shall be centered on the page and can take up at most 80% of the width of the page. */
 .universe {
     position: absolute;
     width: 80%;
@@ -17,6 +21,7 @@ span {
     transform: translate(-50%, 0)
 }
 
+/* The column widths and behaviour is used to make a responsive design. */
 .col-1 {width: 10%}
 .col-2 {width: 20%}
 .col-3 {width: 30%}
@@ -54,11 +59,14 @@ span {
     float: right;
 }
 
+/* For some reason the field for text input must be explicitly styled to prevent the borders from disappearing
+ randomly... */
 #virtual_barcode {
     border: 1px solid darkgrey;
     padding: 1.2px;
 }
 
+/* Order elements in a vertical manner when the viewport is very narrow. */
 @media screen and (max-width: 768px) {
     [class*="col-"] {
         width: 100%;
@@ -67,6 +75,8 @@ span {
     }
 }
 
+/* When the browser window is maximized on bigger screens, the content is a bit narrower and in the center of the
+window. */
 @media screen and (min-width: 1024px) {
     .universe {
         position: absolute;

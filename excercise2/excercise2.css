@@ -1,3 +1,4 @@
+/* Elements are resized according to their outer dimensions */
 * {
     box-sizing: border-box;
 }
@@ -6,6 +7,7 @@ td {
     vertical-align: top;
 }
 
+/* The contents of the page shall be centered and can take up at most 80% of the width. */
 .universe {
     position: absolute;
     width: 80%;
@@ -15,6 +17,7 @@ td {
     border: 1px solid black;
 }
 
+/* Define columns, table rows and table colu,mns for the responsive design */
 .col-1 {width: 10%}
 .col-2 {width: 20%}
 .col-3 {width: 30%}
@@ -46,12 +49,21 @@ td {
     width: 100%;
 }
 
+/* For some reason the field for text input must be explicitly styled here as well to prevent the borders
+ from disappearing randomly... */
+#zip {
+    border: 1px solid darkgrey;
+    padding: 1.2px;
+}
+
 #box_map {
     border: 1px solid black;
     width: 100%;
     height: 400px;
 }
 
+/* The box with the results of queries is quite small to begin with. It is resized by Javascript to appropriate heigths
+depending on the number of place coordinates returned when queries are made. */
 #box_results {
     height: 2.8em;
 }
