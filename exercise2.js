@@ -110,8 +110,9 @@ function searchClicked() {
 window.onload = function() {
     populateCountries();
     // Load the saved search history from an earlier session
-    if (("history" in localStorage) != null) {
-        historyData = localStorage.getItem("history").split(',');
+    if ("history" in localStorage) {
+        historyData = localStorage.getItem("history");
+        if (historyData != null) historyData = historyData.split(',');
         $("#history").html(historyData);
     }
     $("#btn_search").click(searchClicked);
