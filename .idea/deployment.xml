@@ -9,6 +9,20 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="abo.fi (project level)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/CSA2" local="$PROJECT_DIR$" web="/johnordq" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="tuxedo">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
     </serverData>
   </component>
 </project>

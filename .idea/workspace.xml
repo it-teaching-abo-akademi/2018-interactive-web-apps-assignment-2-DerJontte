@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b204914a-dbf7-40b2-bc89-70e237300d54" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/excercise2.css" beforeDir="false" afterPath="$PROJECT_DIR$/excercise2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise2.html" beforeDir="false" afterPath="$PROJECT_DIR$/exercise2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise3.css" beforeDir="false" afterPath="$PROJECT_DIR$/exercise3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise3.html" beforeDir="false" afterPath="$PROJECT_DIR$/exercise3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise3.js" beforeDir="false" afterPath="$PROJECT_DIR$/exercise3.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,48 +59,54 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1567283281">
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="286" />
+          <entry key="html" value="349" />
+          <entry key="js" value="7741" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="286" />
+          <entry key="HTML" value="349" />
+          <entry key="JavaScript" value="7741" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="1" />
+          <entry key="js" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="JavaScript" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="2018-interactive-web-apps-assignment-2-DerJontte" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise2.js">
+        <entry file="file://$PROJECT_DIR$/exercise3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/excercise2.css">
+        <entry file="file://$PROJECT_DIR$/exercise3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-=======
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/excercise2.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
->>>>>>> test2
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
-=======
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/exercise2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="18" column="25" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="25" />
->>>>>>> test2
+            <state relative-caret-position="466">
+              <caret line="113" column="31" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -114,25 +124,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>table</find>
-      <find>box</find>
-      <find>box_h</find>
-      <find>box_</find>
-      <find>dropdow</find>
-      <find>dropDow</find>
-      <find>countr</find>
-      <find>dropDown</find>
-      <find>coun</find>
-      <find>resu</find>
-      <find>result</find>
-      <find>bor</find>
-      <find>red</find>
-      <find>borde</find>
-      <find>virtual</find>
-      <find>map</find>
-      <find>zoom</find>
-      <find>histor</find>
-      <find>history</find>
       <find>replace</find>
       <find>vCode</find>
       <find>box_hi</find>
@@ -144,6 +135,25 @@
       <find>tr-1</find>
       <find>zip</find>
       <find>col-5</find>
+      <find>tVeh</find>
+      <find>marker</find>
+      <find>setmar</find>
+      <find>setMarker</find>
+      <find>vehiclePo</find>
+      <find>vehicleList</find>
+      <find>option</find>
+      <find>markers</find>
+      <find>selectedLine</find>
+      <find>Object</find>
+      <find>plotR</find>
+      <find>routePath.setMap(null)</find>
+      <find>getSe</find>
+      <find>refresh</find>
+      <find>plotRoute</find>
+      <find>respon</find>
+      <find>refre</find>
+      <find>plotVehicles</find>
+      <find>route</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -159,8 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/exercise3.html" />
-        <option value="$PROJECT_DIR$/exercise3.js" />
         <option value="$PROJECT_DIR$/exercise1.html" />
         <option value="$PROJECT_DIR$/exercise1.js" />
         <option value="$PROJECT_DIR$/exercise1.css" />
@@ -175,6 +183,9 @@
         <option value="$PROJECT_DIR$/exercise2.js" />
         <option value="$PROJECT_DIR$/excercise2.css" />
         <option value="$PROJECT_DIR$/exercise2.html" />
+        <option value="$PROJECT_DIR$/exercise3.html" />
+        <option value="$PROJECT_DIR$/exercise3.css" />
+        <option value="$PROJECT_DIR$/exercise3.js" />
       </list>
     </option>
   </component>
@@ -190,31 +201,34 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="ClientSideAssignment2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ClientSideAssignment2" type="462c0819:PsiDirectoryNode" />
+              <item name="2018-interactive-web-apps-assignment-2-DerJontte" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="2018-interactive-web-apps-assignment-2-DerJontte" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name=".idea" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+      <pane id="ProjectPane">
+        <subPane>
           <expand>
             <path>
-              <item name="ClientSideAssignment2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="2018-interactive-web-apps-assignment-2-DerJontte" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018-interactive-web-apps-assignment-2-DerJontte" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -297,11 +311,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="120718000" />
-=======
-    <option name="totallyTimeSpent" value="122824000" />
->>>>>>> test2
+    <option name="totallyTimeSpent" value="155467000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -314,13 +324,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1743941" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.15884861" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Inspection Results" visible="true" weight="0.32936078" />
+      <window_info id="Favorites" order="2" sideWeight="0.50080776" side_tool="true" visible="true" weight="0.15884861" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -328,9 +338,10 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="File Transfer" order="11" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Inspection Results" order="12" visible="true" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -361,33 +372,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exercise1.css">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="443">
           <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
-=======
-        <state relative-caret-position="330">
-          <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
->>>>>>> test2
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/excercise2.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-<<<<<<< HEAD
           <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-=======
           <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
->>>>>>> test2
         </state>
       </provider>
     </entry>
@@ -395,6 +391,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="18" column="25" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="39" column="11" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="113" column="31" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="31" />
         </state>
       </provider>
     </entry>

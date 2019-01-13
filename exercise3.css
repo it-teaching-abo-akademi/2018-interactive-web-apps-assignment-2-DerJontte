@@ -1,21 +1,38 @@
-/* Elements are resized according to their outer dimensions */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    --content-width: 80vw;
 }
 
 body {
-    width: 100vw;
-    height: 90vh;
+    margin-top: 2vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
+}
+
+#route_number_div {
+    width: var(--content-width);
+    min-width: 200px;
+    margin-bottom: 2vh;
+}
+
+#route_number {
+    width: 200px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+    margin-bottom: 2vh;
+    min-width: 200px;
 }
 
 #route_map {
     border: 2px solid black;
-    width: 80vw;
+    width: var(--content-width);
+    min-width: 200px;
     height: 80vh;
 }
