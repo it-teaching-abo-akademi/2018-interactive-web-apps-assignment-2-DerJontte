@@ -1,4 +1,4 @@
-var routePath, plottedLine, plottedVehicles, routeName, selectedOption, map;
+var routePath, plottedLine, plottedVehicles, routeName, map;
 var markers = [];
 
 // Function that creates the Google map. Hardcoded to start centered on Turku market square, the main hub for
@@ -35,6 +35,7 @@ function clearMarkers() {
 // Function that fetches route data from the server, parses it and populates the dropdown list with a human readable
 // list of bus lines.
 function populateRouteList() {
+    alert();
     $.getJSON("http://data.foli.fi/gtfs/routes", function(response) { // Fetch the data
         let routeList = [];
 
