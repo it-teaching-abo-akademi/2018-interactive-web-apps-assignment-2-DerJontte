@@ -35,7 +35,7 @@ function clearMarkers() {
 // Function that fetches route data from the server, parses it and populates the dropdown list with a human readable
 // list of bus lines.
 function populateRouteList() {
-    $.getJSON("http://data.foli.fi/gtfs/routes", function(response) { // Fetch the data
+    $.getJSON("https://data.foli.fi/gtfs/routes", function(response) { // Fetch the data
         let routeList = [];
 
         // Sort the data by the line number
@@ -69,7 +69,7 @@ function populateRouteList() {
 function plotRoute(selectedLine) {
     // Get the line ID and fetch the route coordinates from the server
     let routeID = JSON.parse(selectedLine).lineID;
-    $.getJSON("http://data.foli.fi/gtfs/trips/route/" + routeID, function (routeTrips) {
+    $.getJSON("https://data.foli.fi/gtfs/trips/route/" + routeID, function (routeTrips) {
 
         // Most lines have a few different variations of the route. Find the most common route shape for the line.
         var table = {};
@@ -90,7 +90,7 @@ function plotRoute(selectedLine) {
         });
 
         // Fetch the shape that was selected above and draw it on the map
-        $.getJSON("http://data.foli.fi/gtfs/v0/20190103-094234/shapes/" + biggest.name, function (routePoints) {
+        $.getJSON("https://data.foli.fi/gtfs/v0/20190103-094234/shapes/" + biggest.name, function (routePoints) {
             let routeLine = [];
             // Create a Google Maps API-compatible list with the route points
             for (let i = 0; i < routePoints.length; i++) {
@@ -137,7 +137,7 @@ function plotVehicles(selectedLine) {
     routeName = JSON.parse(selectedLine).name;
 
     // Get the vehicle position data from the server
-    $.getJSON("http://data.foli.fi/siri/vm/", function(vmData) {
+    $.getJSON("https://data.foli.fi/siri/vm/", function(vmData) {
         let vehicleData = vmData.result.vehicles;
         // Remove any earlier markers
         clearMarkers();
