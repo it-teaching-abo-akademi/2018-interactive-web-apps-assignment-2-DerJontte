@@ -138,6 +138,12 @@ function plotVehicles(selectedLine) {
 
     // Get the vehicle position data from the server
     $.getJSON("https://data.foli.fi/siri/vm/", function(vmData) {
+        // Check that the system returned a valid response before cntinuing
+        if(vmData.status !== "OK") {
+            alert("The realtime vehicle monitoring system is currently unavailable.");
+            return;
+        }
+
         let vehicleData = vmData.result.vehicles;
         // Remove any earlier markers
         clearMarkers();
