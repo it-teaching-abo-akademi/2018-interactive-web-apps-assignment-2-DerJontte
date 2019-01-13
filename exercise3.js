@@ -35,7 +35,6 @@ function clearMarkers() {
 // Function that fetches route data from the server, parses it and populates the dropdown list with a human readable
 // list of bus lines.
 function populateRouteList() {
-    alert();
     $.getJSON("http://data.foli.fi/gtfs/routes", function(response) { // Fetch the data
         let routeList = [];
 
@@ -73,7 +72,7 @@ function plotRoute(selectedLine) {
     $.getJSON("http://data.foli.fi/gtfs/trips/route/" + routeID, function (routeTrips) {
 
         // Most lines have a few different variations of the route. Find the most common route shape for the line.
-        var table = new Object;
+        var table = {};
         Object.getOwnPropertyNames(routeTrips).forEach(index => {
             // Create a table with a key for each route shape and count the number of times that shape occurs in the data
             let route = routeTrips[index];
@@ -105,7 +104,7 @@ function plotRoute(selectedLine) {
             }
 
             // If there are buses from another line plotted on the map, remove them
-            if (plottedVehicles != selectedLine) {
+            if (plottedVehicles !== selectedLine) {
                 clearMarkers();
                 plottedVehicles = undefined;
             }
@@ -144,12 +143,12 @@ function plotVehicles(selectedLine) {
         clearMarkers();
 
         // If there is a bus line plotted that is not the currently selected line, removit
-        if (plottedLine != selectedLine) clearRoute();
+        if (plottedLine !== selectedLine) clearRoute();
 
         // Parse the vehicle data for the ones that belong to the selected line and set their markers on the map
         Object.getOwnPropertyNames(vehicleData).forEach(itemName => {
             let item = vehicleData[itemName];
-            if (item.publishedlinename == routeName) {
+            if (item.publishedlinename === routeName) {
                 let newPoint = new google.maps.LatLng(item.latitude, item.longitude);
                 setMarker(newPoint, item.publishedlinename);
             }
@@ -167,8 +166,8 @@ function getSelected() {
 }
 
 // Function that executes when the page is loaded into the browser
-window.onload = function() {
-    populateRouteList();
+window.onload = async function () {
+    await populateRouteList();
 
     // Event handlers for the buttons
     $("#btn_show_route").click(function () {
